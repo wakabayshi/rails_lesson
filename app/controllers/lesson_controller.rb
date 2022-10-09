@@ -67,9 +67,12 @@ class LessonController < ApplicationController
   end
 
   def step17
+    @zaiko = -1
   end
 
   def step18
+    @items = {"フライパン" => 2680, "ワイングラス" => 2550,
+    "ペッパーミル" => 4515, "ヒーラー"=> 945}
   end
 
 end
